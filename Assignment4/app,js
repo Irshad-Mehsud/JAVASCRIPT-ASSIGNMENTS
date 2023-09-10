@@ -1,0 +1,40 @@
+//=========================================Q1============================================
+//1. Declare 3 variables in one statement.
+var Name,university,Department; 
+//=========================================Q2============================================
+//2. Declare 5 legal & 5 illegal variable names.
+//legal variable names
+let myVariable;
+let _shopNo;
+let $rate;
+let camelCaseVariable;
+let value123;
+//Illegal variable names
+// var 123variable                             //starts with a digit
+// var my-variable                             //contains a hyphen
+// var my variable                             //contains a space
+// var @illegalVariable                        //contains special character @
+// var for                                     //reserved keyword
+//=========================================Q3=============================================
+// 3. Display this in your browser
+// a) A heading stating “Rules for naming JS variables”
+// b) Variable names can only contain ______, ______,
+// ______ and ______.
+// For example $my_1stVariable
+// c) Variables must begin with a ______, ______ or
+// _____. For example $name, _name or name
+// d) Variable names are case _________
+// e) Variable names should not be JS _________
+var Rule1="numbers";
+var Rule2="$";
+var Rule3="_";
+document.write("Variable names can only contain " +Rule1+" ,"+Rule2+" ,"+"and"+Rule3+".For exmaple:$my_1stVariable")
+var Rule4="letter";
+var Rule5="$";
+var Rule6="_";
+document.write("<br/>Variables must begin with a " +Rule1+" ,"+Rule2+" ,"+"and"+Rule3+" .For example $name, _name or name")
+let Case="sensitive";
+document.write("<br/>Variable names are case " +Case)
+const keyword="keyword";
+document.write("<br/>Variable names should not be JS" +Case)
+//=========================================THE END============================================
